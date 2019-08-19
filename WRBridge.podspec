@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint WKBridge.podspec' to ensure this is a
+#  Be sure to run `pod spec lint WRBridge.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see https://guides.cocoapods.org/syntax/podspec.html
@@ -15,9 +15,9 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "WKBridge"
-  spec.version      = "0.0.2"
-  spec.summary      = "this is WKBridge."
+  spec.name         = "WRBridge"
+  spec.version      = "0.0.3"
+  spec.summary      = "this is WRBridge."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,10 +25,10 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-  this is WKBridge which used to html
+  this is WRBridge which used to html
                    DESC
 
-  spec.homepage     = "https://github.com/scorplot/WKBridge"
+  spec.homepage     = "https://github.com/scorplot/WRBridge"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -77,7 +77,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/scorplot/WKBridge.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/scorplot/WRBridge.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -88,12 +88,12 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "WKBridge.framework/Headers/*.{h}"
+  spec.source_files  = "WRBridge.framework/Headers/*.{h}"
   #spec.exclude_files = "Classes/Exclude"
 
-  spec.public_header_files = "WKBridge.framework/Headers/*.{h}"
+  spec.public_header_files = "WRBridge.framework/Headers/*.{h}"
 
-  spec.vendored_framework  = "WKBridge.framework"
+  spec.vendored_framework  = "WRBridge.framework"
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -115,7 +115,7 @@ Pod::Spec.new do |spec|
   #  the lib prefix of their name.
   #
 
-  # spec.framework  = "WKBridge"
+  # spec.framework  = "WRBridge"
   # spec.frameworks = "SomeFramework", "AnotherFramework"
 
   # spec.library   = "iconv"

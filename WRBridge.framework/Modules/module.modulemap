@@ -1,0 +1,6 @@
+framework module WRBridge {
+  umbrella header "WRBridge.h"
+
+  export *
+  module * { export * }
+}
