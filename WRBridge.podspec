@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "WRBridge"
-  spec.version      = "0.0.4"
+  spec.version      = "0.0.5"
   spec.summary      = "this is WRBridge."
 
   # This description is used to generate tags and improve search results.
@@ -131,7 +131,7 @@ Pod::Spec.new do |spec|
   # spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  s.xcconfig = { "OTHER_LDFLAGS" => "-ObjC -all_load" }
+  spec.xcconfig = { "OTHER_LDFLAGS" => "-ObjC -all_load" }
   # spec.dependency "JSONKit", "~> 1.4"
 
 end
