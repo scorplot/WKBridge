@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "WKBridge"
   spec.version      = "0.0.1"
-  spec.summary      = "A short description of WKBridge."
+  spec.summary      = "this is WKBridge."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,6 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
+  this is WKBridge which used to html
                    DESC
 
   spec.homepage     = "https://github.com/scorplot/WKBridge"
@@ -60,7 +61,7 @@ Pod::Spec.new do |spec|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  # spec.platform     = :ios
+  spec.platform     = :ios
   # spec.platform     = :ios, "5.0"
 
   #  When using multiple platforms
@@ -92,6 +93,7 @@ Pod::Spec.new do |spec|
 
   spec.public_header_files = "WKBridge.framework/Headers/*.{h}"
 
+  spec.vendored_framework  = "WKBridge.framework"
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -113,7 +115,7 @@ Pod::Spec.new do |spec|
   #  the lib prefix of their name.
   #
 
-  spec.framework  = "WKBridge.framework"
+  # spec.framework  = "WKBridge"
   # spec.frameworks = "SomeFramework", "AnotherFramework"
 
   # spec.library   = "iconv"
